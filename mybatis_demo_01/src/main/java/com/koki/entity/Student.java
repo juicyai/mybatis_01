@@ -6,6 +6,14 @@ public class Student {
     private Integer age;
     private String email;
 
+    public Student(){};
+    public Student(String name,Integer age,String email){
+        this.name=name;
+        this.age=age;
+        this.email=email;
+    }
+
+
     public Integer getId() {
         return id;
     }
